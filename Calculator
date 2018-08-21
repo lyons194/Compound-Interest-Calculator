@@ -1,1 +1,2 @@
 #My attempt at creating a compound interest calculator using Python.
+#Variables that will be used include: principal, interest, time (in years).
