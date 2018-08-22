@@ -14,3 +14,10 @@ if 1 > 0:
 		print("OK!")
 	amount = prin*(1 + (rate/number))**time
 	print(amount)
+	"""Note: In the beginning of this program, change the if statement to a while statement.
+	Then, include an option in the beginning of the program that allows the user to specify
+	how many annuities for which they need to calculate compound interest.  By having this 
+	option in the program, it becomes easier for the user because the user will only have to
+	answer prin, rate, time and number a certain amount of times.  Plus, the user won't have to
+	mess with copying and pasting the program multiple times in order to calculate multiple
+	annuities."""
