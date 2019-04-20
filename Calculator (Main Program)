@@ -1,4 +1,9 @@
-#Updated on 4/20/2019.
+#NAME:  Compound Interest Calculator
+#LANGUAGE:  Python
+#CREATED BY: Sean Lyons
+#LAST UPDATED:  April 20, 2019.
+
+#PROGRAM.
 
 def cic():
 	a = int(input("How many items do you have to calculate? "))
