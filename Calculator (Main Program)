@@ -1,26 +1,4 @@
-#An updated version of the compound interest calculator.  This version allows for the user to run the calculation multiple times.
-if 1 > 0:
-	a = int(input("How many items do you have to calculate? "))
-	print(a)
-	b = 0
-	while b < a:
-		prin = float(input("What is the principal amount? "))
-		rate = float(input("What is the interest rate? "))
-		time = int(input("How many years will pass? "))
-		number = int(input("How many times will interest compound each year? (Note: minimum is 1): "))
-		print(prin); print(rate); print(time); print(number)
-		query = str(input("Are these values correct? (Y/N) "))
-		if query == "Y":
-			print("OK!")
-		elif query == "N":
-			print("OK!")
-		amount1 = rate / number
-		amount2 = time*number
-		final_amount = prin*(1+amount1)**amount2
-		print(final_amount)
-		b = b + 1
-
-
+#Updated on 4/20/2019.
 
 def cic():
 	a = int(input("How many items do you have to calculate? "))
@@ -42,3 +20,5 @@ def cic():
 		final_amount = prin*(1+amount1)**amount2
 		print(final_amount)
 		b = b + 1
+
+cic()
