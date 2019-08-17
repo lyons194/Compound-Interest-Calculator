@@ -27,3 +27,40 @@ def cic():
 		b = b + 1
 
 cic()
+
+
+#Compound interest calculator
+#8-17-2019 update.
+
+#The program's main() function.
+def main():
+    b = 0
+    n = '\n'
+    s = '     '
+    a = int(input(f'{n}How many items do you have to calculate? '))
+    while b < a:
+        prin = float(input(f"{n}What is the principal amount?  "))
+        rate = float(input(f"{n}What is the interest rate? "))
+        time = int(input(f"{n}How many years will pass? "))
+        number = int(input(f"{n}How many times will interest compound each year? (Note: minimum is 1): "))
+        print(f'{n*2}{s}FINAL VALUES...{n}')
+        print(f'{n*2}{s}Principal = {prin}'); print(f'{s}Interest rate = {rate}');
+        print(f'{s}Years = {time}'); print(f'{s}Compounding = {number}{n*2}')
+        query = str(input(f'{n}Are these values correct? (Y/N) '))
+        if query == "Y":
+            print(f'{n}OK!{n}')
+        elif query == 'y':
+            print(f'{n}OK!{n}')
+        elif query == "N":
+            print(f'{n}OK!{n}')
+        elif query == 'n':
+            print(f'{n}OK!{n}')
+        amount1 = rate / number
+        amount2 = time*number
+        final_amount = prin*(1+amount1)**amount2
+        print(f'{n}Your final amount is: {final_amount}{n}')
+        b = b + 1
+
+#Conditional statement which triggers the program.
+if __name__ == '__main__':
+    main()
