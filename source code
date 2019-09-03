@@ -1,9 +1,10 @@
 #NAME:  Compound Interest Calculator
 #LANGUAGE:  Python
 #CREATED BY: Sean Lyons
-#LAST UPDATED:  August 17, 2019.
+#LAST UPDATED:  September 2, 2019.
 
-#The program's main() function.
+
+#Defining the main() function.
 def main():
     b = 0
     n = '\n'
