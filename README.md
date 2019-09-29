@@ -1,5 +1,6 @@
 Compound-Interest-Calculator
 
+
 A compound interest calculator coded in Python.
 
 This calculator allows the user to calculate the compound interest for any number of loans the user prefers, within one sitting.
