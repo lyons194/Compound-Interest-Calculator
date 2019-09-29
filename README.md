@@ -1,4 +1,9 @@
-# Compound-Interest-Calculator
-"""A compound interest calculator I made using Python.
-The calculator takes the principal, interest rate, time period (in years) and number of times per year that the interest compounds
-and uses it to calculate the final amount that will result from the parameters listed above."""
+Compound-Interest-Calculator
+
+A compound interest calculator coded in Python.
+
+This calculator allows the user to calculate the compound interest for any number of loans the user prefers, within one sitting.
+
+When running the program, the user first specifies how many loans they will be calculating.
+
+The program then inputs the principal, interest rate, time period (in years) and number of times per year that the interest compounds, for each loan they need to calculate.
